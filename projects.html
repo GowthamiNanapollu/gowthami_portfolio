@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Skills & Certifications</title>
+		<link rel="icon" type="image/x-icon" href="images/title3.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main2.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <style>
+            .project-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+            }
+            .project-card {
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                overflow: hidden;
+                transition: box-shadow 0.3s ease;
+            }
+            .project-card:hover {
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            }
+            .project-card img {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+            }
+            .project-title {
+                font-weight: bold;
+                text-align: center;
+                background: #f7f7f7;
+                padding: 0.5rem;
+            }
+            .project-details{
+        
+                text-align: left;
+                background: #f7f7f7;
+                padding: 0.7rem;
+            }
+            .project-content {
+                display: none;
+                padding: 1rem;
+            }
+            .project-card.active .project-content {
+                display: block;
+            }
+            .project-toggle {
+                text-align: center;
+                cursor: pointer;
+                padding: 0.5rem;
+                background: #eee;
+                font-weight: bold;
+                transition: background 0.3s;
+            }
+            .project-toggle:hover {
+                background: #ddd;
+            }
+        </style>
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Home</a>
+			</header>
+
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">About me</a></li>
+					<li><a href="skills.html">Skills and Certifications</a></li>
+					<li class="active"><a href="projects.html">Projects</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/gowthami-nanapollu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/GowthamiNanapollu" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    <li>
+                        <a href="mailto:gowthaminanapollu@gmail.com" class="icon solid fa-envelope">
+                          <span class="label">Email</span>
+                        </a>
+                      </li>
+					<li><a href="https://www.instagram.com/_gowthami_narnavaram_/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					
+				</ul>
+			</nav>
+
+			<!-- Main Content -->
+			<div id="main">
+                <section id="projects">
+                    <header class="major">
+                        <h2>My Projects</h2>
+                    </header>
+                    <div class="project-grid">
+    
+    
+    
+                        <div class="project-card">
+                            <div class="project-title">HR Analytics, HR - employee Attrition</div>
+                            <img src="images/hr.jpeg" alt=HR Analytics, HR - employee Attrition">
+                            <div class="project-toggle">Show Description</div>
+                            <div class="project-content">
+                                <p>Developed a Logistic regression model is designed to predict employee attrition based on various demographic, professional, and behavioral factors. The goal is to help HR teams identify potential risks of employee turnover and take proactive measures to improve retention. The model have 87% accuracy.</p>
+                                <ul>
+    
+                                    <li><strong>Frameworks:</strong> NumPy, Pandas, Matplotlib, Scikit-learn</li>
+                                <li><strong>Dataset:</strong> <a href="https://github.com/GowthamiNanapollu/ml/blob/main/HR_analytics/WA_Fn-UseC_-HR-Employee-Attrition.csv">View Data</a></li>
+    
+                                </ul>
+                            </div>
+                            <div class="project-details">
+                            <ul >
+                                <li><strong>Model:</strong> Logistic Regressor</li>
+                                <li><strong>Accuracy: 87%</strong> </li>	
+                                <li><strong>Environment:</strong> Jupyter Notebook</li>
+                                <li><strong>Github: </strong><a href="https://github.com/GowthamiNanapollu/ml/tree/main/HR_analytics">View Repository</a></li>
+                            </ul>
+                        </div>
+                        </div>
+    
+                        
+                      <div class="project-card">
+                            <div class="project-title">House Price Prediction</div>
+                            <img src="images/house.jpeg" alt="House Price Prediction">
+                            <div class="project-toggle">Show Description</div>
+                            <div class="project-content">
+                                <p>Developed a Linear regression model to predict house prices in Bangalore using size, square feet, number of bathrooms, balconies, and area type. Accuracy: 65%.</p>
+                                <ul>
+                                    <li><strong>Frameworks:</strong> NumPy, Pandas, Matplotlib, Scikit-learn</li>
+                                    <li><strong>Dataset:</strong> <a href="https://github.com/GowthamiNanapollu/House-Price-prediction/blob/main/Bengaluru_House_Data.csv">View Data</a></li>
+                                
+                                </ul>
+                            </div>
+                            <div class="project-details">
+                            <ul >
+                                <li><strong>Model:</strong> Linear Regressor</li>
+                                <li><strong>Accuracy: 65%</strong></li>
+                                <li><strong>Environment:</strong> Jupyter Notebook</li>
+                                <li><strong>GitHub: </strong><a href="https://github.com/GowthamiNanapollu/House-Price-prediction">View Repository</a></li>
+                            </ul>
+                        </div>
+                        </div>
+    
+                        
+    
+                        <div class="project-card">
+                            <div class="project-title">Vehicle Price Prediction</div>
+                            <img src="images/vehicle.jpg" alt="Vehicle Price Prediction">
+                            <div class="project-toggle">Show Description</div>
+                            <div class="project-content">
+                                <p>Developed a regression model to predict vehicle prices using year, km driven, fuel, seller type, and owner. Accuracy: 63%.</p>
+                                <ul>
+                                    <li><strong>Frameworks:</strong> NumPy, Pandas, Matplotlib, Scikit-learn</li>
+                                    <li><strong>Dataset:</strong> <a href="https://github.com/GowthamiNanapollu/Vehicle_price_prediction/blob/main/CAR%20DETAILS%20FROM%20CAR%20DEKHO.csv">View Data</a></li>
+                                
+                                </ul>
+                            </div>
+                            <div class="project-details">
+                            <ul>
+                                <li><strong>Model:</strong> Linear Regressor</li>
+                                <li><strong>Accuracy: 63%</strong></li>
+                                <li><strong>Environment:</strong> Jupyter Notebook</li>
+                                <li><strong>GitHub: </strong><a href="https://github.com/GowthamiNanapollu/Vehicle_price_prediction">View Repository</a></li>
+                            </ul>
+                        </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-title">Python Programs</div>
+                            <img src="images/python.png" alt="Python Projects">
+                            <div class="project-toggle">Show Description</div>
+                            <div class="project-content">
+                                <p>Collection of Python programs covering loops, conditionals, functions, OOP, regex, debugging, and problem-solving.</p>
+                                
+                            </div>
+                            <div class="project-details">
+                            <ul>
+                                <li><strong>Skills:</strong> Python</li>
+                                <li><strong>GitHub: </strong><a href="https://github.com/GowthamiNanapollu/python-programs">View Repository</a></li>
+                            </ul>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-title">Portfolio Website</div>
+                            <img src="images/portfolio.png" alt="portfolio">
+                            <div class="project-toggle">Show Description</div>
+                            <div class="project-content">
+                                <p>Developed a personal portfolio to highlight skills, certifications, and projects using Prompt Engineering to craft compelling content.</p>
+                                
+                            </div>
+                            <div class="project-details">
+                            <ul>
+                                <li><strong>Skills:</strong> Prompt Engineering</li>
+                                <li><strong>Tools:</strong> ChatGPT</li>
+                                <li><strong>GitHub: </strong><a href="https://github.com/GowthamiNanapollu/gowthami_portfolio">View Repository</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+			<footer id="footer">
+				<div class="footer-container">
+
+					<!-- Quick Links -->
+					<section class="footer-section quick-links">
+						<h3>Quick Links</h3>
+						<ul>
+							<li><a href="index.html">About Me</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="skills.html">Skills & Certifications</a></li>
+
+						</ul>
+					</section>
+
+					<!-- Contact Info -->
+					<section class="footer-section contact-info">
+						<h3>Contact</h3>
+						<ul>
+							<li><i class="fas fa-envelope"></i> <a href="mailto:gowthaminanapollu@gmail.com">gowthaminanapollu@gmail.com</a></li>
+							<li><i class="fas fa-phone"></i> <a href="tel:+1234567890">gowthaminanapolla@gmail.com</a></li>
+						</ul>
+					</section>
+
+					<!-- Social Media Links -->
+					<section class="footer-section social">
+						<h3>Follow Me</h3>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/gowthami-nanapollu/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/GowthamiNanapollu" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            <li>
+								<a href="mailto:gowthaminanapollu@gmail.com" class="icon solid fa-envelope">
+								  <span class="label">Email</span>
+								</a>
+							</li>
+							<li><a href="https://www.instagram.com/_gowthami_narnavaram_/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							
+						</ul>
+					</section>
+
+				</div>
+			</footer>
+
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li>&copy; 2025 Gowthami Nanapollu, All Rights reserved</li></ul>
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+        <script>
+            document.querySelectorAll('.project-toggle').forEach(toggle => {
+              toggle.addEventListener('click', () => {
+                const card = toggle.closest('.project-card');
+                card.classList.toggle('active');
+                toggle.textContent = card.classList.contains('active') ? 'Hide Description' : 'Show Description';
+              });
+            });
+          </script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
